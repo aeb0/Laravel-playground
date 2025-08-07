@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "noEmit": true,
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "moduleDetection": "force",
+        "noImplicitThis": true,
+        "strict": true,
+        "target": "ESNext",
+        "baseUrl": ".",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "paths": {
+            "@/*": ["./resources/ts/*"]
+        }
+    },
+    "include": ["env.d.ts", "resources/ts/**/*"]
+}
